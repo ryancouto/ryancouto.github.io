@@ -48,6 +48,12 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.group:after {
+		content: '';
+		clear: both;
+		display: block;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -59,10 +65,11 @@
 /* Containers */
 
 	.project {
-		display: flex;
-		position: relative;
+		display: block;
 		padding-bottom: 40px;
+		float: left;
 	}
+
 
 	.picture {
 		width: 260px;
@@ -78,8 +85,8 @@
 
 	.descrip {
 		width: 45%;
+		float: left;
 		margin-left: 20px;
-		float: right;
 	}
 
 	.container {
@@ -1524,6 +1531,7 @@
 		position: relative;
 		display: inline-block;
 		border: 0;
+		float: left;
 	}
 
 		.image img {
