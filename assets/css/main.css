@@ -2029,7 +2029,7 @@
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header2.jpg");
+		background-image: url("images/overlay.png"), url("../../images/yose.jpg");
 		background-attachment: fixed;
 		background-size: auto, cover;
 		background-position: top left, center center;
