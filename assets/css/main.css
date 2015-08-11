@@ -84,9 +84,9 @@
 	}
 
 	.descrip {
-		width: 45%;
+		width: 57%;
 		float: right;
-		margin-left: 20px;
+
 	}
 
 	.container {
@@ -1548,7 +1548,7 @@
 
 		.image.fit {
 			display: block;
-			width: 50%;
+			width: 40%;
 		}
 
 		.image.left {
