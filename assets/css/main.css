@@ -1524,15 +1524,7 @@
 		border: 0;
 	}
 
-		.image:after {
-			content: '';
-			position: absolute;
-			left: 0;
-			top: 0;
-			width: 100%;
-			height: 100%;
-			background: url("images/overlay.png");
-		}
+
 
 		.image img {
 			display: block;
