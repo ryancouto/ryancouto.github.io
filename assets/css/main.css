@@ -64,6 +64,18 @@
 		padding-bottom: 40px;
 	}
 
+	.picture {
+		width: 260px;
+		height: 260px;
+		border-radius: 130px;
+		-webkit-border-radius: 130px;
+		-moz-border-radius: 130px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+	}
+
 	.descrip {
 		width: 45%;
 		margin-left: 20px;
@@ -1506,17 +1518,7 @@
 
 /* Image */
 
-.picture {
-	width: 260px;
-	height: 260px;
-	border-radius: 130px;
-	-webkit-border-radius: 130px;
-	-moz-border-radius: 130px;
-	border: 0;
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-}
+
 
 	.image {
 		position: relative;
