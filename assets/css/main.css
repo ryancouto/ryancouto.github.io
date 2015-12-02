@@ -1728,6 +1728,7 @@
 
 		ul.default li {
 			padding-left: 0.5em;
+			text-align: left;
 		}
 
 	ul.icons {
