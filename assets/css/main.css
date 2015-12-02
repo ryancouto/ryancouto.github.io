@@ -2215,7 +2215,7 @@
 /* Main Sections */
 
 .img-icons {
-		height: 90px;
+		height: 40px;
 		margin: 20px;
 	}
 
@@ -2223,7 +2223,6 @@
 		padding-left: 0px;
 		display: inline-block;
 		margin: 0 auto;
-		max-width: 680px;
 	}
 
 	.imgs li {
@@ -2334,6 +2333,10 @@
 			body, input, textarea, select {
 				font-size: 13pt;
 				line-height: 1.65em;
+			}
+
+			.imgs {
+				max-width: 620px;
 			}
 
 		/* Feature Icon */
