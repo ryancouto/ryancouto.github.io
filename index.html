@@ -27,7 +27,7 @@
 				<footer>
 					<a href="#first" class="button scrolly">About Me</a>
 					<a href="#second" class="button scrolly">Skills</a>
-					<a href="#third" class="button scrolly">Portfolio</a>
+					<a href="#third" class="button scrolly">Projects</a>
 					<ul class="icons">
 						<li><a href="http://www.github.com/ryancouto" class="icon fa-github"><span class="label">GitHub</span></a></li>
 						<li><a href="http://www.linkedin.com/in/ryancouto" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -41,8 +41,9 @@
 			<section id="first" class="main">
 				<header>
 					<div class="container">
-						<h2>About Me</h2>
-						<span class="picture"><img src="images/prof.png" alt="" /></span>
+						<span class="picture">
+							<img src="images/prof.png" alt="" />
+						</span>
 						<div class="about-me">
 							<p class="about">
 							I'm a New York-based developer with experience in Ruby on Rails,
@@ -59,8 +60,9 @@
 							<a href="http://ryancouto.com/docs/resume.pdf" class="resume button scrolly">Resume</a>
 					</div>
 				</header>
-				<div class="content dark style3 featured" id="second">
-					<div class="container">
+				<div class="content dark style3 featured">
+
+					<div class="container" id="second">
 						<ul class="imgs">
 								<li>
 									<a href="http://ruby-lang.org/en/">
@@ -130,18 +132,144 @@
 								</li>
 							</ul>
 						</div>
+
+						<div class="container group" id="third">
+
+							<div class="project group">
+								<div class="image fit hovereffect">
+									<img class="img-responsive" src="images/sweeten.png">
+									<div class="overlay">
+										<p class="proj">
+											<a class="button live" href="http://sweeten.com">
+												live
+											</a>
+										</p>
+									</div>
+								</div>
+								<div class="descrip">
+									<a href="http://sweeten.com">
+										<h3>Sweeten</h3>
+									</a>
+									<h4>A home renovation matchmaking app</h4>
+									<ul class="default">
+										<li>Reconfigured content-based matching algorithm for more accurate matching</li>
+										<li>Implemented collaborative-filtering based matching algorithm</li>
+										<li>Redesigned matching page, leading to increased productivity and revenue</li>
+									</ul>
+								</div>
+							</div>
+							<hr />
+
+							<div class="project group">
+								<div class="image fit hovereffect">
+									<img class="img-responsive" src="images/shopup.png">
+									<div class="overlay">
+										<p class="proj">
+											<a class="button live" href="http://shopup.xyz">
+												live
+											</a>
+											<a class="button" href="http://github.com/ryancouto/shopup">
+												github
+											</a>
+										</p>
+									</div>
+								</div>
+								<div class="descrip">
+									<a href="http://shopup.xyz">
+										<h3>ShopUp</h3>
+									</a>
+									<h4>An AirBnB inspired app for commercial pop-up stores</h4>
+									<ul class="default">
+										<li>
+											Backbone front-end consumes RESTful JSON API served by Rails back-end
+										</li>
+										<li>
+											OmniAuth allows log-in through google
+										</li>
+										<li>
+											Google geocoding API searches within user-defined radius
+										</li>
+										<li>Overrides Backbone parse methods to create front-end model associations
+										</li>
+									</ul>
+								</div>
+							</div>
+							<hr />
+
+							<div class="project group">
+								<div class="image fit hovereffect">
+									<img class="img-responsive" src="images/snake.png">
+									<div class="overlay">
+										<p class="proj">
+											<a class="button live" href="http://ryancouto.com/snake">
+												live
+											</a>
+											<a class="button" href="http://github.com/ryancouto/snake">
+												github
+											</a>
+										</p>
+									</div>
+								</div>
+								<div class="descrip">
+									<a href="http://ryancouto.com/snake">
+										<h3>Snakes on a Euclidean Plane</h3>
+									</a>
+									<h4>Snake game made with JavaScript, HTML, and CSS</h4>
+									<ul class="default">
+										<li>
+											Utilizes JavaScript asynchronicity to render every 100 milliseconds
+										</li>
+										<li>
+											JavaScript back-end with jQuery, HTML and CSS front-end
+										</li>
+										<li>
+											Dynamically updates score
+										</li>
+									</ul>
+								</div>
+							</div>
+							<hr />
+
+							<div class="project group">
+								<div class="image fit hovereffect">
+									<img class="img-responsive" src="images/chess.png">
+										<div class="overlay">
+											<p class="proj">
+												<a class="button" href="http://github.com/ryancouto/chess">github</a>
+											</p>
+										</div>
+								</div>
+								<div class="descrip">
+									<a href="http://github.com/ryancouto/chess">
+										<h3>Chess</h3>
+									</a>
+									<h4>Command Line Chess game written in Ruby</h4>
+									<ul class="default">
+										<li>
+											Game pieces inherit move functionality from parent classes to DRY up code
+										</li>
+										<li>
+											Uses custom deep-duplication method on board to validate moves
+										</li>
+										<li>
+											Input uses standard algebraic chess notation
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
 			</section>
 
 		<!-- Second -->
-			<section id="third" class="main">
-				<header>
+			<!-- <section id="third" class="main"> -->
+				<!-- <header>
 					<div class="container">
 						<h2>Portfolio</h2>
 					</div>
-				</header>
-				<div class="content dark style3">
-					<div class="container group">
+				</header> -->
+				<!-- <div class="content dark style3"> -->
+					<!-- <div class="container group">
 
 						<div class="project group">
 							<div class="image fit hovereffect">
@@ -267,9 +395,9 @@
 						</div>
 
 
-					</div>
-				</div>
-			</section>
+					</div> -->
+				<!-- </div>
+			</section> -->
 
 		<!-- Footer -->
 			<section id="footer">

@@ -197,15 +197,21 @@
 
 
 	.picture {
-		width: 260px;
-		height: 260px;
-		border-radius: 130px;
-		-webkit-border-radius: 130px;
-		-moz-border-radius: 130px;
+		padding-top: 40px;
 		border: 0;
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
+	}
+
+	.picture img {
+		border-radius: 100px;
+		-webkit-border-radius: 100px;
+		-moz-border-radius: 100px;
+	}
+
+	.about-header {
+		padding: 0;
 	}
 
 	.about-me {
@@ -2176,12 +2182,12 @@
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header2.jpg");
+		background-image: url("images/overlay.png"), url("https://i.imgur.com/fbVEMLV.jpg");
 		background-attachment: scroll;
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
-		padding: 14em 0 14em 0;
+		padding: 4em 0;
 		text-align: center;
 		color: #fff;
 	}
@@ -2236,7 +2242,7 @@
 		.main > header {
 			background: #fff;
 			text-align: center;
-			padding: 5em 0 5em 0;
+			padding: 0 0 5em 0;
 			margin: 0;
 		}
 
@@ -2338,13 +2344,13 @@
 		/* Header */
 
 			#header {
-				padding: 12em 0 12em 0;
+				padding: 4em 0 4em 0;
 			}
 
 		/* Main Sections */
 
 			.main > header {
-				padding: 4em 0 4em 0;
+				padding: 0 0 4em 0;
 			}
 
 			.main > .content {
@@ -2392,7 +2398,7 @@
 
 			#header {
 				margin: 0 !important;
-				padding: 8em 2em 8em 2em;
+				padding: 4em 0;
 			}
 
 				#header header p {
@@ -2410,7 +2416,7 @@
 			}
 
 				.main > header {
-					padding: 3.5em 2em 3.5em 2em;
+					padding: 0 0 3.5em 0;
 				}
 
 					.main > header h2 {
@@ -2496,7 +2502,7 @@
 		/* Header */
 
 			#header {
-				padding: 6em 20px 6em 20px;
+				padding: 4em 0;
 			}
 
 				#header > header {
@@ -2506,7 +2512,7 @@
 		/* Main Sections */
 
 			.main > header {
-				padding: 3em 20px 3em 20px;
+				padding: 0 0 3em 0;
 			}
 
 				.main > header h2 {
