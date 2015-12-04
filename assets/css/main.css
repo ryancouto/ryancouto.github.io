@@ -2183,7 +2183,7 @@
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("images/starvolcano.jpg");
+		background-image: url("images/overlay.png"), url("../../images/starvolcano.jpg");
 		background-attachment: scroll;
 		background-size: auto, cover;
 		background-position: top left, center center;
