@@ -192,9 +192,14 @@
 	.project {
 		display: block;
 		padding-bottom: 40px;
-		float: left;
+		width: 50%;
+		margin: 0 auto;
 	}
 
+	.container-flex {
+		display: flex;
+		align-items: space-between;
+	}
 
 	.picture {
 		padding-top: 40px;
@@ -1679,14 +1684,16 @@
 
 /* Image */
 
-
-
 	.image {
 		position: relative;
 		display: inline-block;
 		border: 0;
 		float: left;
 	}
+
+		.image .img-responsive {
+			width: 80%;
+		}
 
 		.image img {
 			display: inline-block;
@@ -1702,7 +1709,7 @@
 
 		.image.fit {
 			display: block;
-			width: 40%;
+			width: 100%;
 		}
 
 		.image.left {
