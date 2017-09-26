@@ -1,1 +1,1 @@
-[live](http://ryancouto.com)
+[live](http://ryancouto.github.io)
