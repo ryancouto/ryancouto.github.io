@@ -54,8 +54,8 @@
 	}
 
 body {
-	background: #2c3e50;
-	color: #ecf0f1;
+	background: #0084b4;
+	color: #fff;
 	font-family: "Lato", sans-serif;
 	font-size: 28pt;
 	font-weight: 700;
@@ -68,13 +68,13 @@ a {
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
-	color: #ecf0f1;
+	color: #fff;
 	text-decoration: none;
 }
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #bdc3c7;
+	color: #ecf0f1;
 	text-decoration: none;
 }
 
